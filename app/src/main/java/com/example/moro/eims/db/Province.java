@@ -1,6 +1,7 @@
 package com.example.moro.eims.db;
 
-import DataSupport;
+
+import org.litepal.crud.DataSupport;
 
 /**
  * Created by Moro on 2017/9/17.
