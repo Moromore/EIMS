@@ -98,7 +98,7 @@ public class AreaFragment extends Fragment {
         backButton.setVisibility(View.GONE);
         provinceList = DataSupport.findAll(Province.class);
         if(provinceList.size()>0) {
-            dataList.add(selectedProvince.getProvinceName());
+            dataList.clear();
             for (Province province : provinceList) {
                 dataList.add(province.getProvinceName());
             }
